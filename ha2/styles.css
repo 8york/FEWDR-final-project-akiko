@@ -189,6 +189,11 @@ h2 {
     flex-direction: column;
   }
 
+  .bio>a {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(34, 139, 34)
+  }
+
   .bio {
     font-size: 30px;
     line-height: 1;
