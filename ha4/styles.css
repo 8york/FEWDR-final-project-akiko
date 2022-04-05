@@ -109,6 +109,7 @@ h1 {
 
 .questions {
   font-size: 60px;
+  font-family: 'Fjalla One', sans-serif;
   font-weight: bolder;
   color: rgb(25, 25, 112);
   padding-top: 40px;
@@ -237,15 +238,16 @@ textarea {
   }
 }
 
-@media (max-width:750px) {
+@media (max-width:700px) {
   .image-left {
-    max-width: 450px;
+    width: 300px;
   }
 
   .everyone {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
+    width: 300px;
   }
 
   h3 {
@@ -260,6 +262,7 @@ textarea {
 .product {
   text-align: justify;
   color: rgb(25, 25, 112);
+  font-family: 'Fjalla One', sans-serif;
 }
 
 h2 {

@@ -6,7 +6,7 @@ let imageData = [
   {"text": "torsten is 200cm and wearing Light-pink L", "image": "img/haphoto2.jpg", "alt": "torsten"},
   {"text": "jamie is 188cm and wearing pink in s", "image": "img/jamietee.jpg", "alt": "jamie"},
   {"text": "torsten is 200cm and wearing pink in M", "image": "img/awkback.jpg", "alt":"random"},
-  {"text": "THIS IS HALFASIAN", "image": "img/haphoto2.jpg", "alt":"another"}
+  {"text": "THIS IS HALFASIAN", "image": "img/haphoto2.jpg", "alt":"halfasian"}
 ];
 
 const textBox = document.getElementById('image-left-text');

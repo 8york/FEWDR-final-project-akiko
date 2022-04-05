@@ -108,6 +108,7 @@ h1 {
 
 .questions {
   font-size: 60px;
+  font-family: 'Fjalla One', sans-serif;
   font-weight: bolder;
   color: rgb(255, 127, 80);
   padding-top: 40px;
@@ -152,7 +153,7 @@ li {
 h2 {
   font-size: 40px;
   text-align: center;
-  font-family: 'Anybody', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   color: rgb(64, 224, 208);
 }
 
