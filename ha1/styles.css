@@ -1,0 +1,321 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(to top, rgb(255, 0, 255), rgb(255, 165, 0), rgb(0, 139, 139), rgb(255, 215, 0));
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+
+.roll {
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  text-align: center;
+}
+
+@media (min-width:800px) {
+  .roll {
+    width: 90px;
+    height: 600px;
+    font-size: 65px;
+    text-align: center;
+    margin-left: 2px;
+    border-radius: 50%;
+    padding: 10px;
+  }
+}
+
+@keyframes jumps {
+  from {
+    transform: translateY(0) rotate(-180deg);
+    opacity: 0.6;
+  }
+
+  to {
+    transform: translateY(-40px) rotate(90deg);
+    opacity: 1;
+  }
+}
+
+@keyframes jumper {
+  from {
+    transform: translateY(-40px) rotate(90deg);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateY(0) rotate(-180deg);
+    opacity: 0.4;
+  }
+}
+
+.h {
+  background-color: purple;
+  color: gold;
+  animation: jumps 2s 4 alternate;
+  transition-timing-function: step-end;
+}
+
+.a {
+  background-color: darkblue;
+  color: tomato;
+  animation: jumper 2s 6 alternate;
+  transition-timing-function: step-end;
+}
+
+.l {
+  background-color: lightblue;
+  color: pink;
+  animation: jumps 2s 5 alternate;
+  transition-timing-function: step-end;
+}
+
+.f {
+  background-color: green;
+  color: violet;
+  animation: jumper 2s 7 alternate;
+}
+
+.s {
+  background-color: yellow;
+  color: blue;
+  animation: jumps 2s 6 alternate;
+}
+
+.i {
+  background-color: orange;
+  color: aqua;
+  animation: jumper 2s 7 alternate;
+}
+
+.n {
+  background-color: red;
+  color: white;
+  animation: jumps 2s 8 alternate;
+}
+
+.questions {
+  font-size: 60px;
+  font-weight: bolder;
+  color: rgb(255, 250, 205);
+  margin: 0 auto;
+}
+
+.naviclass>a {
+  color: rgb(124, 252, 0);
+  font-size: 35px;
+  background-color: rgb(255, 20, 147);
+  text-decoration: none;
+  padding: 5px 26px;
+  text-decoration: none;
+  border-radius: 14px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.navi {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+@media (min-width:700px) {
+  .navi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.naviclass>a {
+  color: rgb(124, 252, 0);
+  font-size: 25px;
+  background-color: rgb(0, 206, 209);
+  text-decoration: none;
+  padding: 2px 26px;
+  text-decoration: none;
+  border-radius: 14px;
+  transition: 1s;
+}
+
+.logo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("img/logo.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1200px;
+  width: 95%;
+  margin: 50px auto;
+  border-radius: 20px;
+  position: relative;
+  display: block;
+}
+
+@media (max-width:700px) {
+  .logo {
+    background-image: none;
+  }
+}
+
+.flash {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#perform {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("img/haatballroom.jpeg");
+  margin-top: 20px;
+}
+
+#gallery {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("img/haphoto1.jpg");
+}
+
+#merch {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("img/hatestin2.jpg");
+}
+
+.navimage {
+  height: 380px;
+  width: 370px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  transition: all 2s;
+  margin-bottom: 15px;
+  z-index: 2;
+}
+
+.navimage:hover {
+  opacity: .8;
+  z-index: -1;
+}
+
+.navimage:hover .navlink {
+  opacity: 1;
+  background-color: rgb(127, 255, 212);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  visibility: visible;
+  z-index: 2;
+}
+
+.navlink {
+  opacity: 0;
+  transition: all 2s;
+  text-align: center;
+}
+
+.navlink>a {
+  text-decoration: none;
+  color: rgb(65, 105, 225);
+  font-size: 60px;
+}
+
+.credits {
+  padding-left: 20px;
+  background-color: rgb(255, 99, 71);
+  font-size: 24px;
+  color: rgb(139, 0, 139);
+  text-align: center;
+}
+
+.credit>a {
+  text-decoration: none;
+  color: rgb(255, 235, 205);
+  transition: 1s;
+}
+
+a:hover {
+  position: relative;
+  bottom: 5px;
+  color: red;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 35px;
+}
+
+@media (max-width:800px) {
+  .poc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.poc {
+  display: flex;
+}
+
+.legend {
+  font-size: 22px;
+  color: rgb(220, 220, 220);
+}
+
+label {
+  color: rgb(220, 220, 220);
+  font-size: 20px;
+}
+
+#mailing-list, button {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 15px;
+  border: solid rgb(220, 220, 220);
+  margin-top: 5px;
+}
+
+button {
+  width: 100px;
+  margin-right: 20px;
+}
+
+#mailing-list {
+  width: 250px;
+  margin-right: 10px;
+}
+
+small {
+  color: rgb(220, 220, 220);
+}
+
+.fa {
+  padding: 10px;
+  font-size: 35px;
+  width: 50px;
+  text-align: center;
+  display: inline;
+  color: navy;
+  text-decoration: none;
+}
+
+.acknowledge {
+  font-size: 22px;
+  padding: 8px;
+  margin-top: 22px;
+  margin-bottom: 20px;
+}

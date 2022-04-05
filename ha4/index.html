@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>halfasian4</title>
+  <link rel="stylesheet" href="normalise.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1 class="half">
+      <div class="roll h">H</div>
+      <div class="roll a">A</div>
+      <div class="roll l">L</div>
+      <div class="roll f">F</div>
+      <div class="roll a">A</div>
+      <div class="roll s">S</div>
+      <div class="roll i">I</div>
+      <div class="roll a">A</div>
+      <div class="roll n">N</div>
+    </h1>
+    <p class="questions">Is it Music?</p>
+  </header>
+  <div class="whowherewhat">
+    <nav class="link">
+      <ul class="navi">
+
+        <li class="naviclass home"><a href="../ha1/index.html">home</a></li>
+        <li class="naviclass" "about"><a href="../ha2/index.html">who</a></li>
+        <li class="naviclass" "images"><a href="../ha3/index.html">where</a></li>
+        <li class="naviclass" "cute"><a href="index.html">wear</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <main class="merch">
+    <div class="pop">
+      <div class="band-tee">
+        <img id="image-left" class="image-left" src="img/haphoto2.jpg" alt="hatee">
+        <p id="image-left-text" class="image-text"></p>
+      </div>
+
+      <div class="right">
+        <h3>click images for sizing</h3>
+        <section class="everyone" id="everyone">
+        </section>
+      </div>
+      <div class="product">
+        <h2>Halfasian hahatshirt</h2>
+        <p class="price"> A$25.00 plus shipment</p>
+        <p class="details">Mixed colour silk screen printing on 100% cotton preshrunk jersey knit weight:200GSM seamless double needlerib knit collar. Taped neck and shoulders for extra durability.</p>
+        <p class="descr">All the t-shirts are designed, stencilled and handprinted at <a href="https://www.thedcstylefylez.com/">DC StyleFlyez</a> studio. Due to the nature of printing-by-hand, each tshirt is uqique</p>
+        <span>If you are interested in wearing hahatshirt please order below</span>
+        <form id="tshirt-order">
+          <fliedset>
+            <legend class="hahatee">let's wear hahatshirt</legend>
+            <label for="Full-Name">Full Name</label>
+            <br />
+            <input type="text" id="full-name" placeholder="your name" required>
+            <p id="name-error" class="error-message"></p>
+            <label for="select">Select Size</label><br />
+            <select id="select" placeholder="choose size" required>
+              <option value="choose"></option>
+              <optgroup label="size">
+                <option value="s">Small</option>
+                <option value="M">Medium</option>
+                <option value="L">Large</option>
+                <p id="required"></p>
+              </optgroup>
+            </select><br />
+            <label for="address">Mailing Address</label><br />
+            <textarea id="adress" name="address" placeholder="your address" required></textarea><br />
+            <p id="address-error" class="error-message"></p>
+            <label for="email" class="email">your email</label><br />
+            <input type="text" id="email" class="error-message" placeholder="your email"><br />
+            <p id="email-error" class="error-message"></p>
+            <label for="payment">payment details</label><br />
+            <label for="name">Name</label><br />
+            <input type="text" id="name" placeholder="name on card" required><br />
+            <label for="card-number">card number</label><br />
+            <input type="text" id="number" placeholder="card number" required><br />
+            <label for="expiry" id=exiry>exipiry date</label><br />
+            <input type="date" id="expiry" placeholder="expiry date" requried />
+            <br />
+            <label for="cvv">CVV</label><br />
+            <input type="text" id="cvv" placeholder="cvv" required><br />
+            <button id="submit" class="buy">submit</button>
+          </fliedset>
+        </form>
+      </div>
+  </main>
+  <div class="credits">
+    <p class="credit">image credits; <a href="https://www.jamiemumford.com/">Jamie Mumford </a>
+      <a href="https://www.michaelgordonhill.com/"> Michael Gordon Hill </a>
+      <a href="http://tobiastitz.de/"> Tobias Titz</a>
+      <a href="https://www.thewanderingroom.org/"> Wandering Room</a>
+    </p>
+  </div>
+  <footer>
+    <section class="contact">
+      <p class="legend">If you would like to know our upcoming appearance </p>
+      <div class="poc">
+        <form>
+          <label for="mailing-list">send</label>
+          <input type="text" name="email" placeholder="your email address" id="mailing-list">
+          <button type="submit">submit</button>
+        </form>
+        <div class="social">
+          <small>or contact here</small>
+          <a href="https://www.instagram.com/halfasian.da/?hl=en" class="fa fa-instagram"></a>
+          <a href="https://www.youtube.com/channel/UCj9Vn2KTWNFlQna6drwljRA/featured" class="fa fa-youtube"></a>
+        </div>
+      </div>
+    </section>
+    <section class="acknowledge">
+      Halfasian would like to acknowledgethe Traditional Owners and Custodians of the land on which
+      we live, the Peoples of the Kulin Nation. Halfasian also pay the respects to their Elders past and
+      present.
+    </section>
+  </footer>
+  <script src="ha4.js"></script>
+
+</body>
+
+</html>
