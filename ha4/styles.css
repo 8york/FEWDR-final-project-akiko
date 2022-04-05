@@ -259,10 +259,12 @@ textarea {
 
 .product {
   text-align: justify;
+  color: rgb(25, 25, 112);
 }
 
 h2 {
   font-size: 28px;
+  color: rgb(240, 128, 128);
 }
 
 span>a {
