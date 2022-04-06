@@ -276,6 +276,12 @@ h2 {
   align-items: center;
 }
 
+@media (max-width:600px) {
+  iframe {
+    width: 350px;
+  }
+}
+
 iframe {
   border: solid orange;
   border-radius: 10px;
