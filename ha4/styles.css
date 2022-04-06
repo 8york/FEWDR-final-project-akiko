@@ -163,8 +163,8 @@ li {
 
 .image-text {
   color: rgb(0, 0, 128);
-  font-size: 26px;
-  font-weight: bolder;
+  font-size: 18px;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 a {

@@ -36,8 +36,8 @@ const imageArray = [{
   },
   {
     "smallImage": "img/haballrooomgreet.jpg",
-    "largeImage": "img/haballrooomgreet.jpg",
-    "text": "Between lockdown 5 and 6 in 2021, Monnone Aloneinvited Halfasian to play before their show at Brunswick Ballroom. Both of us were quite sure that this show will not go on because of the pandemic restrictions, but practised over video calls just in case. First time and possibly last time Halfasian played a show with a microphone, a sound system and lighting. This will be talked about as a 25 mins of fame till we stop.",
+    "largeImage": "img/ballroom.jpg",
+    "text": "Between lockdown 5 and 6 in 2021, Monnone Aloneinvited Halfasian to play before their show at Brunswick Ballroom. First when we were asked, the show was going to be at a venue downstairs from the Ballroom, much smaller capacity. It turned out, their capacity was maxed out and decision was made to move the show to upstairs.  Halfasian was quite sure that this show will not go on because of the pandemic restrictions, but practised over video calls just in case. First time and possibly last time Halfasian played a show with a microphone, a sound system and lighting. This will be talked about as a 25 mins of fame till we stop.",
     "alt": "ballroom"
   },
   {
