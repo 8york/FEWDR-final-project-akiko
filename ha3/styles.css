@@ -383,14 +383,10 @@ button {
 
 @media (max-width:400px) {
   #modal-image {
-    height: 350;
-    width: 350;
+    height: 350px;
+    width: 350px;
   }
-
-  )
 }
-
-  {}
 
 #modal-image {
   height: 500px;
