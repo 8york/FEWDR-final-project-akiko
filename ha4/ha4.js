@@ -1,12 +1,12 @@
 let imageData = [
-  {"text": "dave is 180cm and wearing pink M", "image": "img/creedtee.jpg", "alt": "david"},
-  {"text": "angela is 162cm and wearing pink S", "image": "img/ang.jpg", "alt": "ang"},
-  {"text": "yoki is 142cm and wearing S", "image": "img/yokipink.jpg", "alt": "yoki"},
-  {"text": "otto is 97cm and wearing yellow child s", "image": "img/awkfront.jpg", "alt": "otto"},
-  {"text": "torsten is 200cm and wearing Light-pink L", "image": "img/haphoto2.jpg", "alt": "torsten"},
-  {"text": "jamie is 188cm and wearing pink in s", "image": "img/jamietee.jpg", "alt": "jamie"},
-  {"text": "torsten is 200cm and wearing pink in M", "image": "img/awkback.jpg", "alt":"random"},
-  {"text": "THIS IS HALFASIAN, who is serious but no need to take it seriously", "image": "img/haphoto2.jpg", "alt":"halfasian"}
+  {"text": "dave is 178cm tall and wearing pink M", "image": "img/creedtee.jpg", "alt": "david"},
+  {"text": "angela is 162cm tall and wearing pink S", "image": "img/ang.jpg", "alt": "ang"},
+  {"text": "yoki is 142cm tall and wearing S", "image": "img/yokipink.jpg", "alt": "yoki"},
+  {"text": "akio is 163cm tall and wearing yellow child s", "image": "img/awkfront.jpg", "alt": "otto"},
+  {"text": "torsten is 200cm tall and wearing Light-pink L", "image": "img/haphoto2.jpg", "alt": "torsten"},
+  {"text": "jamie is 177cm tall and wearing pink in s", "image": "img/jamietee.jpg", "alt": "jamie"},
+  {"text": "torsten is 200cm tall and wearing pink in s", "image": "img/torstens.jpg", "alt":"random"},
+  {"text": "THIS IS HALFASIAN who is serious but no need to take it seriously", "image": "img/haphoto2.jpg", "alt":"halfasian"}
 ];
 
 const textBox = document.getElementById('image-left-text');
