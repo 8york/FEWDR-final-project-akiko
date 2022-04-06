@@ -212,7 +212,7 @@ h2 {
 }
 
 .haimage {
-  height: 500px;
+  height: 400px;
   width: 300px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -226,6 +226,13 @@ h2 {
   row-gap: 20px;
   transition: all .4s ease-out;
   cursor: pointer;
+}
+
+@media (max-width:400px) {
+  .haimage {
+    height: 250px;
+    width: 250px;
+  }
 }
 
 .haimage:hover {

@@ -259,7 +259,7 @@ textarea {
 @media (max-width:500px) {
   .everyone {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
   }
 }
