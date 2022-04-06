@@ -2,10 +2,10 @@ let imageData = [
   {"text": "dave is 178cm tall and wearing pink M", "image": "img/creedtee.jpg", "alt": "david"},
   {"text": "angela is 162cm tall and wearing pink S", "image": "img/ang.jpg", "alt": "ang"},
   {"text": "yoki is 142cm tall and wearing S", "image": "img/yokipink.jpg", "alt": "yoki"},
-  {"text": "akio is 163cm tall and wearing yellow child s", "image": "img/awkfront.jpg", "alt": "otto"},
-  {"text": "torsten is 200cm tall and wearing Light-pink L", "image": "img/haphoto2.jpg", "alt": "torsten"},
+  {"text": "otto is 94cm tall and wearing pinks and relaxing", "image": "img/ottoin.jpg", "alt": "otto"},
+  {"text": "torsten is 200cm tall and wearing light pink L", "image": "img/torstensizel.jpg", "alt": "torsten"},
   {"text": "jamie is 177cm tall and wearing pink in s", "image": "img/jamietee.jpg", "alt": "jamie"},
-  {"text": "torsten is 200cm tall and wearing pink in s", "image": "img/torstens.jpg", "alt":"random"},
+  {"text": "akiko is 163cm tall and wearing pink s", "image": "img/akikkkko.jpg", "alt":"akiko"},
   {"text": "THIS IS HALFASIAN who is serious but no need to take it seriously", "image": "img/haphoto2.jpg", "alt":"halfasian"}
 ];
 
