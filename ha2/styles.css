@@ -156,7 +156,7 @@ h2 {
   margin: 0 35px;
 }
 
-@media (min-width:800px) {
+@media (min-width:1100px) {
   .flex {
     display: flex;
     justify-content: center;
@@ -168,7 +168,8 @@ h2 {
   }
 
   .lyrics {
-    width: 40%
+    width: 40%;
+    /* gap: 20px; */
   }
 
   .perf {
@@ -180,8 +181,8 @@ h2 {
   .ideacontainer {
     display: flex;
     align-items: center;
-    gap: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
+    gap: 12px;
   }
 
   .firstimages {
@@ -203,18 +204,20 @@ h2 {
 
   .imagearea {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
   }
 
   .sideimage {
     height: 500px;
     border: solid orange;
     border-radius: 10px;
-    margin-left: 10px;
+    margin-left: 10%;
   }
 
   .video {
     display: flex;
+    justify-content: space-around;
     gap: 10px;
   }
 
@@ -224,13 +227,13 @@ h2 {
   }
 }
 
-@media (max-width:800px) {
+@media (max-width:1100px) {
   .ideacontainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: auto;
-    margin-left: 40px;
+    gap: 10px;
   }
 
   .bio {
@@ -257,11 +260,11 @@ h2 {
     color: rgb(165, 42, 42);
   }
 
-  .inspiration {
+  /* .inspiration {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+  } */
 }
 
 .about {
@@ -274,6 +277,20 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* .imagearea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+} */
+.inspiration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 @media (max-width:600px) {

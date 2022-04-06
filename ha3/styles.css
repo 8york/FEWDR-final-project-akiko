@@ -147,7 +147,6 @@ li {
 
 .midbit {
   padding-left: 20px;
-  /* margin: 50px 35px; */
 }
 
 h2 {
@@ -163,12 +162,18 @@ h2 {
   color: rgb(255, 215, 0);
 }
 
-@media (min-width:800px) {
+@media (min-width:900px) {
   #small-images-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 25px;
+  }
+
+  .videocontain {
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
   }
 }
 
@@ -213,7 +218,7 @@ h2 {
 
 .haimage {
   height: 400px;
-  width: 300px;
+  /* width: 300px; */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -230,8 +235,8 @@ h2 {
 
 @media (max-width:400px) {
   .haimage {
-    height: 250px;
-    width: 250px;
+    /* height: 200px; */
+    width: 200px;
   }
 }
 
@@ -239,15 +244,9 @@ h2 {
   transform: scale(1.1);
 }
 
-.videocontain {
-  display: block;
-}
-
-@media (min-width:900px) {
+@media (max-width:900px; ) {
   .videocontain {
-    display: flex;
-    gap: 8px;
-    justify-content: space-between;
+    display: block;
   }
 }
 
