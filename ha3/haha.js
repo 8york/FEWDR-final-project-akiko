@@ -1,6 +1,6 @@
 const imageArray = [{
     "smallImage": "img/tobitree.jpg",
-    "largeImage": "img/tobitree.jpg",
+    "largeImage": "img/hawithotto.jpg",
     "text": "Halfasian is a visual artist collectives, thus outfit is one of the important elements. Ideas are discussed together  fabrication takes place in DC's studio.",
     "alt": "tobitree"
   },

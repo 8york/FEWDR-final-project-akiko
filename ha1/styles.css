@@ -293,6 +293,7 @@ label {
 button {
   width: 100px;
   margin-right: 20px;
+  cursor: pointer;
 }
 
 #mailing-list {

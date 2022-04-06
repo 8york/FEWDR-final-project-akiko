@@ -342,6 +342,7 @@ label {
 button {
   width: 100px;
   margin-right: 20px;
+  cursor: pointer;
 }
 
 #mailing-list {
@@ -383,8 +384,8 @@ button {
 
 @media (max-width:400px) {
   #modal-image {
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
   }
 }
 

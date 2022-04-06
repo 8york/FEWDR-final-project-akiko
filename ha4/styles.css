@@ -162,8 +162,9 @@ li {
 }
 
 .image-text {
-  color: rgb(186, 85, 211);
-  font-size: 20px;
+  color: rgb(0, 0, 128);
+  font-size: 26px;
+  font-weight: bolder;
 }
 
 a {
@@ -203,7 +204,7 @@ textarea {
   font-size: 22px;
   font-family: 'Fjalla One', sans-serif;
   font-weight: 10px bold;
-  color: rgb(175, 238, 238);
+  color: rgb(255, 0, 0);
 }
 
 .right-small-image {
@@ -356,6 +357,7 @@ label {
 button {
   width: 100px;
   margin-right: 20px;
+  cursor: pointer;
 }
 
 #mailing-list {
