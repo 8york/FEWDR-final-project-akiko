@@ -235,8 +235,8 @@ h2 {
 
 @media (max-width:400px) {
   .haimage {
-    /* height: 200px; */
-    width: 200px;
+    height: 200px;
+    /* width: 200px; */
   }
 }
 
